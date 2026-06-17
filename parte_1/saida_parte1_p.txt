@@ -1,0 +1,4 @@
+ALGORITMO: Dijkstra
+JUSTIFICATIVA: Dijkstra é o método de caminho mínimo mais eficiente para grafos sem circuitos de custo negativo, utilizando uma estratégia gulosa com complexidade ótima.
+ROTA: 0 1 3 4
+CUSTO: 7
