@@ -1,7 +1,7 @@
 ## Parte 2 – Alocação de Canais Wi-Fi (Coloração de Grafos)
 
 ### 1. Apresentação do Problema e Complexidade (NP-Difícil)
-Nesta parte do projeto, o objetivo é alocar canais de operação para uma rede de pontos de acesso Wi-Fi, garantindo que nenhum par de roteadores com sobreposição de sinal (arestas) utilize o mesmo canal. O objetivo principal é descobrir o **número cromático $\chi(G)$** da rede, ou seja, a quantidade estritamente mínima de canais necessários para evitar qualquer interferência.
+Nesta parte do projeto, o objetivo é alocar canais de operação para uma rede de pontos de acesso Wi-Fi, garantindo que nenhum par de roteadores com sobreposição de sinal utilize o mesmo canal. O objetivo principal é descobrir o **número cromático $\chi(G)$** da rede, ou seja, a quantidade estritamente mínima de canais necessários para evitar qualquer interferência.
 
 Este cenário modela o clássico **Problema de Coloração de Vértices**, que é classificado como **NP-Difícil**. Isto significa que, à medida que a rede cresce, o número de combinações sofre uma explosão combinatória e o tempo de solução cresce de forma exponencial. Não existe um algoritmo conhecido capaz de encontrar a solução ótima em tempo polinomial, o que torna abordagens de brute force inviáveis para redes de maior escala devido ao tempo de execução impraticável.
 
