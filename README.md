@@ -65,16 +65,17 @@ O projeto foi desenvolvido em Python 3. Certifique-se de ter o Python 3 instalad
 
 ### Parte 1 - Roteamento (Backbone)
 Para gerar as rotas de menor custo, navegue até à diretoria `parte1` e execute o solver:
-\`\`\`bash
+```bash
 cd parte1
 python3 solver.py
-\`\`\`
+```
+
 Os ficheiros `saida_parte1_p.txt` e `saida_parte1_m.txt` serão gerados automaticamente na mesma diretoria.
 
 ### Parte 2 - Coloração de Grafos (Wi-Fi)
 Para gerar a alocação de canais, navegue até à diretoria `parte2` e execute o script principal:
-`bash
+```bash
 cd parte2
 python3 main_parte2.py
-\`
+```
 Os ficheiros `saida_parte2_p.txt` e `saida_parte2_m.txt` serão gerados automaticamente na mesma diretoria, assegurando o número cromático mínimo através de Branch and Bound.
