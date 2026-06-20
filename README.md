@@ -79,7 +79,7 @@ Para gerar a alocação de canais, navegue até o diretório `parte2` e execute 
 
 ```bash
 cd parte2
-python3 main_parte2.py
+python3 main.py
 ```
 
 Os arquivos `saida_parte2_p.txt` e `saida_parte2_m.txt` serão gerados automaticamente no mesmo diretório, assegurando o número cromático mínimo através de Branch and Bound.
