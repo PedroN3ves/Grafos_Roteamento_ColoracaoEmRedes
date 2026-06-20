@@ -58,24 +58,28 @@ Fim
 ```
 
 Ao contrário de algoritmos gulosos, o Branch and Bound garante encontrar o número cromático exato $\chi(G)$ porque realiza uma enumeração implícita de todo o espaço de soluções. O algoritmo apenas descarta os caminhos que são matematicamente comprovados como piores ou iguais ao recorde já estabelecido. Isso assegura que a solução ótima global nunca seja acidentalmente ignorada durante o processo de corte da árvore.
+---
 
 ## Instruções de Execução
 
 O projeto foi desenvolvido em Python 3. Certifique-se de ter o Python 3 instalado no seu ambiente.
 
 ### Parte 1 - Roteamento (Backbone)
-Para gerar as rotas de menor custo, navegue até à diretoria `parte1` e execute o solver:
+Para gerar as rotas de menor custo, navegue até o diretório `parte1` e execute o solver:
+
 ```bash
 cd parte1
 python3 solver.py
 ```
 
-Os ficheiros `saida_parte1_p.txt` e `saida_parte1_m.txt` serão gerados automaticamente na mesma diretoria.
+Os arquivos `saida_parte1_p.txt` e `saida_parte1_m.txt` serão gerados automaticamente no mesmo diretório.
 
 ### Parte 2 - Coloração de Grafos (Wi-Fi)
-Para gerar a alocação de canais, navegue até à diretoria `parte2` e execute o script principal:
+Para gerar a alocação de canais, navegue até o diretório `parte2` e execute o script principal:
+
 ```bash
 cd parte2
 python3 main_parte2.py
 ```
-Os ficheiros `saida_parte2_p.txt` e `saida_parte2_m.txt` serão gerados automaticamente na mesma diretoria, assegurando o número cromático mínimo através de Branch and Bound.
+
+Os arquivos `saida_parte2_p.txt` e `saida_parte2_m.txt` serão gerados automaticamente no mesmo diretório, assegurando o número cromático mínimo através de Branch and Bound.
