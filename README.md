@@ -73,8 +73,8 @@ Os ficheiros `saida_parte1_p.txt` e `saida_parte1_m.txt` serão gerados automati
 
 ### Parte 2 - Coloração de Grafos (Wi-Fi)
 Para gerar a alocação de canais, navegue até à diretoria `parte2` e execute o script principal:
-\`\`\`bash
+`bash
 cd parte2
 python3 main_parte2.py
-\`\`\`
+\`
 Os ficheiros `saida_parte2_p.txt` e `saida_parte2_m.txt` serão gerados automaticamente na mesma diretoria, assegurando o número cromático mínimo através de Branch and Bound.
