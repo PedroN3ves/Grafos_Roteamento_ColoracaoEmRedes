@@ -58,6 +58,7 @@ Fim
 ```
 
 Ao contrário de algoritmos gulosos, o Branch and Bound garante encontrar o número cromático exato $\chi(G)$ porque realiza uma enumeração implícita de todo o espaço de soluções. O algoritmo apenas descarta os caminhos que são matematicamente comprovados como piores ou iguais ao recorde já estabelecido. Isso assegura que a solução ótima global nunca seja acidentalmente ignorada durante o processo de corte da árvore.
+
 ---
 
 ## Instruções de Execução
