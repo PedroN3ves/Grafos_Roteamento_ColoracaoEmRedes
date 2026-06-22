@@ -1,3 +1,21 @@
+# Grafos: Roteamento e Coloração em Redes
+
+## Parte 1 – Roteamento de Backbone (Caminho Mínimo)
+
+### 1. Apresentação do Problema
+Na primeira parte do projeto, o foco é o roteamento de backbone, que consiste em encontrar a rota de menor custo para a transmissão de dados em um grafo direcionado. Ao contrário da alocação de canais da Parte 2, este é um problema resolvível em tempo polinomial (P). O desafio central desta etapa é lidar com as diferentes naturezas matemáticas dos pesos das conexões (arestas), o que dita a viabilidade e a escolha do algoritmo utilizado.
+
+### 2. Abordagem Algorítmica (Dijkstra e Bellman-Ford)
+Para garantir o cálculo exato do caminho de menor custo em diferentes cenários, o sistema faz o uso de dois algoritmos distintos com base na topologia:
+
+* Algoritmo de Dijkstra: É o método de caminho mínimo mais eficiente para grafos sem circuitos de custo negativo, utilizando uma estratégia gulosa com complexidade ótima. Ele é aplicado em redes onde todos os custos de enlace são estritamente positivos.
+* Algoritmo de Bellman-Ford: O algoritmo de Dijkstra não é aplicável a grafos com pesos negativos. Em alguns dos grafos analisados, existem custos negativos que representam os ganhos e descontos associados aos SLAs (Service Level Agreements) na rede. O Bellman-Ford é utilizado aqui pela capacidade de tratar custos negativos (SLA) via relaxamento iterativo.
+
+### 3. Justificativa das Escolhas
+A necessidade de alterar entre os dois algoritmos ocorre por uma obrigação matemática. O Dijkstra parte do princípio de que o custo acumulado de um caminho sempre aumenta a cada nova aresta percorrida. Quando a rede possui pesos negativos (descontos de SLA), essa lógica é quebrada. Nesses casos, o algoritmo de Bellman-Ford garante que a rota feche corretamente ao relaxar todas as arestas do grafo V-1 vezes, propagando todos os descontos aplicáveis sem perder a precisão do cálculo final.
+
+---
+
 ## Parte 2 – Alocação de Canais Wi-Fi (Coloração de Grafos)
 
 ### 1. Apresentação do Problema e Complexidade (NP-Difícil)
