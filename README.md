@@ -106,6 +106,6 @@ Os arquivos `saida_parte2_p.txt` e `saida_parte2_m.txt` serão gerados automatic
 ---
 Grupo:
 
-Ana Leticia Nobre da Silva
-Arthur Vinicius Fernandes de Carvalho
-Pedro Henrique Oliveira Neves
+Ana Leticia Nobre da Silva;
+Arthur Vinicius Fernandes de Carvalho;
+Pedro Henrique Oliveira Neves.
