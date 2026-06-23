@@ -104,7 +104,8 @@ python3 main.py
 Os arquivos `saida_parte2_p.txt` e `saida_parte2_m.txt` serão gerados automaticamente no mesmo diretório, assegurando o número cromático mínimo através de Branch and Bound.
 
 ---
-Grupo
+Grupo:
+
 Ana Leticia Nobre da Silva
 Arthur Vinicius Fernandes de Carvalho
 Pedro Henrique Oliveira Neves
